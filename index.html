@@ -20,10 +20,9 @@
       padding: 2rem;
       background: linear-gradient(135deg, #ffe9e9, #ffffff);
       flex-wrap: wrap;
-      animation: fadeIn 1.5s ease-in-out;
     }
-    header img {
-      width: 180px;
+    header .photo {
+      width: 260px;
       border-radius: 12px;
       box-shadow: 0 0 10px rgba(0,0,0,0.1);
     }
@@ -68,14 +67,10 @@
       background: #d67070;
       color: #111;
     }
-    .btn-fixed:hover {
-      background: #d67070;
-    }
     .section {
       max-width: 960px;
       margin: 2rem auto;
       padding: 0 1rem;
-      animation: fadeInUp 1s ease-in-out;
     }
     .section h2 {
       font-size: 1.6rem;
@@ -105,15 +100,11 @@
       flex-wrap: wrap;
       justify-content: center;
     }
-    .certificates a {
-      display: inline-block;
-    }
     .certificates img {
       width: 200px;
       border-radius: 8px;
       box-shadow: 0 2px 6px rgba(0,0,0,0.1);
       transition: transform 0.3s ease;
-      cursor: pointer;
     }
     .certificates img:hover {
       transform: scale(1.05);
@@ -136,36 +127,27 @@
       margin-top: 2rem;
     }
     .logo {
-  margin-top: 1rem;
-  width: 400px;
-  height: auto;
-  display: block;
-  background: transparent !important;
-  box-shadow: none;
-  border-radius: 0;
-}
-    @keyframes fadeIn {
-      from {opacity: 0; transform: scale(0.95);}
-      to {opacity: 1; transform: scale(1);}
-    }
-    @keyframes fadeInUp {
-      from {opacity: 0; transform: translateY(20px);}
-      to {opacity: 1; transform: translateY(0);}
+      margin-top: 1rem;
+      width: 400px;
+      height: auto;
+      display: block;
+      background: transparent !important;
+      box-shadow: none;
+      border-radius: 0;
     }
   </style>
 </head>
 <body>
   <a class="btn-fixed" href="#contacts">Сделать аудит</a>
 
-РЕКЛАМА НА ЯНДЕКСЕ В ПЛЮС С НАТАЛИ, [05.05.2025 15:48]
-<header>
-    <img src="https://i.postimg.cc/VkjG76St/photo-2025-04-17-14-42-51.jpg" alt="Наталья Воронова">
+  <header>
+    <img class="photo" src="https://i.postimg.cc/VkjG76St/photo-2025-04-17-14-42-51.jpg" alt="Наталья Воронова">
     <div class="intro">
       <h1>Наталья Воронова</h1>
       <p>Специалист по контекстной рекламе и AI-инструментам</p>
       <a class="btn" href="https://t.me/Aninanuna" target="_blank">Связаться в Telegram</a>
       <div>
-        <img class="logo" src="https://i.postimg.cc/fTBmMS3Z/2.png" alt="Яндекс Директ" style="background: none;">
+        <img class="logo" src="https://i.postimg.cc/fTBmMS3Z/2.png" alt="Яндекс Директ">
       </div>
     </div>
   </header>
